@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Modèle coopératif - Jacques Berger</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/code3.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section id="premiere">
+					<h3>Le modèle d'affaires coopératif en génie logiciel</h3>
+          <br/><br/>
+					<p>
+						<small>Jacques Berger</small>
+					</p>
+          <br>
+          <br>
+          <div style="text-align:center">
+            <img src="images/logo.png" style="width:100px;border:none;box-shadow:none;">
+          </div>
+				</section>
+
+        <section>
+          <h3>Objectifs</h3>
+          <ul>
+            <li>Introduire le modèle coopératif</li>
+            <li>Décrire comment rentabiliser ce modèle en génie logiciel</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Survol</h3>
+          <ul>
+            <li>Présentation</li>
+            <li>Qu'est-ce qu'une coopérative?</li>
+            <li>Les forces d'une coopérative en génie logiciel</li>
+            <li>Le modèle d'affaires</li>
+            <li>Le développement coopératif</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Présentation</h3>
+          <ul>
+            <li>Développement de logiciels depuis 2003</li>
+            <li>Enseignant depuis 2009</li>
+            <li>Directeur-général de CODE3 depuis 2018</li>
+            <li>Scolarité</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Qu'est-ce qu'une coopérative?</h3>
+          <ul>
+            <li>La loi sur les coops</li>
+            <li>La forme juridique vs la culture d'entreprise</li>
+            <li>Les différents types de coopératives</li>
+            <li>Les différents types de membres</li>
+            <li>L'assemblée générale</li>
+            <li>Le conseil d'administration</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Les forces</h3>
+          <ul>
+            <li>La rentabilité, mais pas à tout prix</li>
+            <li>Le rachat difficile</li>
+            <li>L'alignement des valeurs</li>
+            <li>Le partage des excédents</li>
+            <li>Prendre part aux décisions importantes</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Le modèle d'affaires</h3>
+          <ul>
+            <li>Faire autrement</li>
+            <li>Niveau d'honnêteté supérieur</li>
+            <li>Analyse préliminaire et étude de faisabilité</li>
+            <li>Facturation du travail réellement accompli</li>
+            <li>Estimations par intervalles</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Développement coopératif</h3>
+          <ul>
+            <li>Partage de coûts de développement</li>
+            <li>Organisations qui ne sont pas en concurrence</li>
+            <li>Possible grâce au logiciel libre</li>
+            <li>Cas réels</li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h3>Merci pour votre écoute</h3>
+          <p>Des questions?</p>
+        </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+        slideNumber: true,
+				center: true,
+
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
